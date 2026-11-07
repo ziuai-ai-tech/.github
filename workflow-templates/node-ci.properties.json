@@ -1,0 +1,6 @@
+{
+  "name": "ZIUAI Node.js CI",
+  "description": "Lint, test with coverage, build, secret scan and dependency audit on every pull request. Starter for Node.js and React projects.",
+  "categories": ["JavaScript", "TypeScript"],
+  "filePatterns": ["package.json"]
+}

@@ -1,0 +1,53 @@
+name: Feature request
+description: Propose a new feature or a change to an existing one.
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A feature is only ready to build when the problem, the user and "done" are written down.
+        Larger features also need a short design doc; see docs/02-before-development-checklist.md in the ziuai-ai-tech/.github repository.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: Who is the user, what pain are we solving, and how will we measure success? (3 to 5 lines)
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should change? Keep it to the behaviour, not the implementation, unless the implementation matters.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: The list a reviewer will tick to call this done.
+      placeholder: |
+        - [ ] Given ..., when ..., then ...
+        - [ ] Error and empty states covered
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Out of scope
+      description: What this feature deliberately does not include.
+  - type: dropdown
+    id: data
+    attributes:
+      label: Does this touch personal data, payments, auth or AI features?
+      description: If yes, security and privacy items from the Before Development Checklist apply.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

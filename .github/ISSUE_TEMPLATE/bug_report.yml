@@ -1,0 +1,75 @@
+name: Bug report
+description: Something is broken or behaves differently from what was agreed.
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Fill in every section you can; a reviewer can reproduce the bug faster with exact steps and logs.
+        Never paste secrets, tokens, customer data, phone numbers or emails into an issue. Use fake examples.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One or two lines on what is wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: Include the error message shown to the user and the relevant log lines (with request ID).
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Local
+        - Dev / staging
+        - Production
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical (production down, data loss, security)
+        - High (main feature broken, no workaround)
+        - Medium (feature broken, workaround exists)
+        - Low (cosmetic, minor)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit / app build
+      placeholder: "e.g. v1.4.2, commit abc1234, Android build 118"
+  - type: input
+    id: device
+    attributes:
+      label: Device, browser or OS
+      placeholder: "e.g. Chrome 130 on macOS, Android 14 Samsung A54"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, logs or anything else

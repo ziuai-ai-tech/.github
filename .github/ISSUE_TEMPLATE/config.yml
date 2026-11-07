@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/ziuai-ai-tech/.github/blob/main/SECURITY.md
+    about: Do not open a public issue for security problems. Follow the security policy instead.
+  - name: Engineering standards and documentation
+    url: https://github.com/ziuai-ai-tech/.github/blob/main/docs/README.md
+    about: Developer Handbook, Before Development Checklist and Before Launch Checklist.

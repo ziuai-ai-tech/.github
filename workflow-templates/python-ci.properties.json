@@ -1,0 +1,6 @@
+{
+  "name": "ZIUAI Python CI",
+  "description": "Ruff lint and format check, pytest with coverage, secret scan and dependency audit on every pull request. Starter for Python services.",
+  "categories": ["Python"],
+  "filePatterns": ["pyproject.toml", "requirements.txt"]
+}
