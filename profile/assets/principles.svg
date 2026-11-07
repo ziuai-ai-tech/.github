@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <style>
+    .float { animation: float 6s ease-in-out infinite; }
+    .float-s { animation: floatS 5s ease-in-out infinite; }
+    .flow { animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes floatS { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes flow { from { stroke-dashoffset: 134; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7F5AF0"/><stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/><stop offset="1" stop-color="#161D33"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A2140"/><stop offset="1" stop-color="#0F1428"/>
+    </linearGradient>
+    
+  </defs>
+  
+  <rect width="1200" height="560" rx="24" fill="url(#panel)"/>
+  <text x="604.8" y="78.6" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#0C0820">OUR ENGINEERING PRINCIPLES</text>
+    <text x="604.0" y="77.5" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#110B2C">OUR ENGINEERING PRINCIPLES</text>
+    <text x="603.2" y="76.4" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#160E37">OUR ENGINEERING PRINCIPLES</text>
+    <text x="602.4" y="75.3" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#1C1143">OUR ENGINEERING PRINCIPLES</text>
+    <text x="601.6" y="74.2" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#21144F">OUR ENGINEERING PRINCIPLES</text>
+    <text x="600.8" y="73.1" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#26175A">OUR ENGINEERING PRINCIPLES</text>
+    <text x="600.0" y="72" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="url(#brand)" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">OUR ENGINEERING PRINCIPLES</text>
+  <rect x="530.0" y="90" width="140" height="3" rx="1.5" fill="url(#brand)"/>
+  
+  <rect x="39" y="141" width="360" height="170" rx="18" fill="#241943"/>
+  <g class="float-s" style="animation-delay:-0.0s">
+    <rect x="30" y="130" width="360" height="170" rx="18" fill="url(#card)" stroke="#7F5AF0" stroke-opacity="0.85" stroke-width="1.5"/>
+    <rect x="58" y="130" width="64" height="4" rx="2" fill="#7F5AF0"/>
+    <text x="62.0" y="197.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#0C0820">01</text>
+    <text x="61.2" y="196.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#120C2E">01</text>
+    <text x="60.4" y="195.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#180F3C">01</text>
+    <text x="59.6" y="194.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#1F134A">01</text>
+    <text x="58.8" y="193.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#251658">01</text>
+    <text x="58" y="192" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#7F5AF0" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">01</text>
+    <text x="58" y="228" font-size="22" font-weight="700" fill="#FFFFFF">Code Quality</text>
+    <text x="58" y="258" font-size="15" fill="#9AA4C7">Clean, readable, maintainable</text><text x="58" y="280" font-size="15" fill="#9AA4C7">and reusable code.</text>
+  </g>
+  <rect x="429" y="141" width="360" height="170" rx="18" fill="#122845"/>
+  <g class="float-s" style="animation-delay:-0.7s">
+    <rect x="420" y="130" width="360" height="170" rx="18" fill="url(#card)" stroke="#4090F8" stroke-opacity="0.85" stroke-width="1.5"/>
+    <rect x="448" y="130" width="64" height="4" rx="2" fill="#4090F8"/>
+    <text x="452.0" y="197.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#0C0820">02</text>
+    <text x="451.2" y="196.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#120C2E">02</text>
+    <text x="450.4" y="195.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#180F3C">02</text>
+    <text x="449.6" y="194.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#1F134A">02</text>
+    <text x="448.8" y="193.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#251658">02</text>
+    <text x="448" y="192" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#4090F8" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">02</text>
+    <text x="448" y="228" font-size="22" font-weight="700" fill="#FFFFFF">Security First</text>
+    <text x="448" y="258" font-size="15" fill="#9AA4C7">Protect source code, credentials,</text><text x="448" y="280" font-size="15" fill="#9AA4C7">customer data and infrastructure.</text>
+  </g>
+  <rect x="819" y="141" width="360" height="170" rx="18" fill="#003747"/>
+  <g class="float-s" style="animation-delay:-1.4s">
+    <rect x="810" y="130" width="360" height="170" rx="18" fill="url(#card)" stroke="#00C6FF" stroke-opacity="0.85" stroke-width="1.5"/>
+    <rect x="838" y="130" width="64" height="4" rx="2" fill="#00C6FF"/>
+    <text x="842.0" y="197.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#0C0820">03</text>
+    <text x="841.2" y="196.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#120C2E">03</text>
+    <text x="840.4" y="195.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#180F3C">03</text>
+    <text x="839.6" y="194.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#1F134A">03</text>
+    <text x="838.8" y="193.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#251658">03</text>
+    <text x="838" y="192" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#00C6FF" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">03</text>
+    <text x="838" y="228" font-size="22" font-weight="700" fill="#FFFFFF">Scalability</text>
+    <text x="838" y="258" font-size="15" fill="#9AA4C7">Solutions that grow with</text><text x="838" y="280" font-size="15" fill="#9AA4C7">business requirements.</text>
+  </g>
+  <rect x="39" y="345" width="360" height="170" rx="18" fill="#241943"/>
+  <g class="float-s" style="animation-delay:-2.1s">
+    <rect x="30" y="334" width="360" height="170" rx="18" fill="url(#card)" stroke="#7F5AF0" stroke-opacity="0.85" stroke-width="1.5"/>
+    <rect x="58" y="334" width="64" height="4" rx="2" fill="#7F5AF0"/>
+    <text x="62.0" y="401.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#0C0820">04</text>
+    <text x="61.2" y="400.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#120C2E">04</text>
+    <text x="60.4" y="399.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#180F3C">04</text>
+    <text x="59.6" y="398.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#1F134A">04</text>
+    <text x="58.8" y="397.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#251658">04</text>
+    <text x="58" y="396" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#7F5AF0" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">04</text>
+    <text x="58" y="432" font-size="22" font-weight="700" fill="#FFFFFF">Reliability</text>
+    <text x="58" y="462" font-size="15" fill="#9AA4C7">Thoroughly tested and</text><text x="58" y="484" font-size="15" fill="#9AA4C7">stable software.</text>
+  </g>
+  <rect x="429" y="345" width="360" height="170" rx="18" fill="#122845"/>
+  <g class="float-s" style="animation-delay:-2.8s">
+    <rect x="420" y="334" width="360" height="170" rx="18" fill="url(#card)" stroke="#4090F8" stroke-opacity="0.85" stroke-width="1.5"/>
+    <rect x="448" y="334" width="64" height="4" rx="2" fill="#4090F8"/>
+    <text x="452.0" y="401.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#0C0820">05</text>
+    <text x="451.2" y="400.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#120C2E">05</text>
+    <text x="450.4" y="399.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#180F3C">05</text>
+    <text x="449.6" y="398.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#1F134A">05</text>
+    <text x="448.8" y="397.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#251658">05</text>
+    <text x="448" y="396" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#4090F8" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">05</text>
+    <text x="448" y="432" font-size="22" font-weight="700" fill="#FFFFFF">Collaboration</text>
+    <text x="448" y="462" font-size="15" fill="#9AA4C7">Teamwork, documentation and</text><text x="448" y="484" font-size="15" fill="#9AA4C7">constructive code reviews.</text>
+  </g>
+  <rect x="819" y="345" width="360" height="170" rx="18" fill="#003747"/>
+  <g class="float-s" style="animation-delay:-3.5s">
+    <rect x="810" y="334" width="360" height="170" rx="18" fill="url(#card)" stroke="#00C6FF" stroke-opacity="0.85" stroke-width="1.5"/>
+    <rect x="838" y="334" width="64" height="4" rx="2" fill="#00C6FF"/>
+    <text x="842.0" y="401.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#0C0820">06</text>
+    <text x="841.2" y="400.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#120C2E">06</text>
+    <text x="840.4" y="399.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#180F3C">06</text>
+    <text x="839.6" y="398.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#1F134A">06</text>
+    <text x="838.8" y="397.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#251658">06</text>
+    <text x="838" y="396" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="0" fill="#00C6FF" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">06</text>
+    <text x="838" y="432" font-size="22" font-weight="700" fill="#FFFFFF">Continuous Improvement</text>
+    <text x="838" y="462" font-size="15" fill="#9AA4C7">Better processes, tools and</text><text x="838" y="484" font-size="15" fill="#9AA4C7">engineering standards.</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="558" rx="23" fill="none" stroke="url(#brand)" stroke-opacity="0.4"/>
+</svg>

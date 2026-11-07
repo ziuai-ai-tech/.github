@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="662" viewBox="0 0 1200 662" role="img" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <style>
+    .float { animation: float 6s ease-in-out infinite; }
+    .float-s { animation: floatS 5s ease-in-out infinite; }
+    .flow { animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes floatS { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes flow { from { stroke-dashoffset: 134; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7F5AF0"/><stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/><stop offset="1" stop-color="#161D33"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A2140"/><stop offset="1" stop-color="#0F1428"/>
+    </linearGradient>
+    
+  </defs>
+  
+  <rect width="1200" height="662" rx="24" fill="url(#panel)"/>
+  <text x="604.8" y="78.6" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#0C0820">TECHNOLOGY &amp; ENGINEERING TEAMS</text>
+    <text x="604.0" y="77.5" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#110B2C">TECHNOLOGY &amp; ENGINEERING TEAMS</text>
+    <text x="603.2" y="76.4" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#160E37">TECHNOLOGY &amp; ENGINEERING TEAMS</text>
+    <text x="602.4" y="75.3" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#1C1143">TECHNOLOGY &amp; ENGINEERING TEAMS</text>
+    <text x="601.6" y="74.2" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#21144F">TECHNOLOGY &amp; ENGINEERING TEAMS</text>
+    <text x="600.8" y="73.1" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#26175A">TECHNOLOGY &amp; ENGINEERING TEAMS</text>
+    <text x="600.0" y="72" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="url(#brand)" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">TECHNOLOGY &amp; ENGINEERING TEAMS</text>
+  <rect x="530.0" y="90" width="140" height="3" rx="1.5" fill="url(#brand)"/>
+  
+  <g class="float-s" style="animation-delay:-2.70s">
+    <polygon points="95,566 245,596 245,612 95,582" fill="#007B9E"/>
+    <polygon points="245,596 395,566 395,582 245,612" fill="#00536B"/>
+    <polygon points="95,566 245,536 395,566 245,596" fill="#1FCDFF" stroke="#FFFFFF" stroke-opacity="0.4"/>
+    <text x="245" y="572" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="2" fill="#0B0F1A" fill-opacity="0.75">07</text>
+  </g>
+  <g class="float-s" style="animation-delay:-2.25s">
+    <polygon points="95,498 245,528 245,544 95,514" fill="#0D709C"/>
+    <polygon points="245,528 395,498 395,514 245,544" fill="#094C6A"/>
+    <polygon points="95,498 245,468 395,498 245,528" fill="#31BDFC" stroke="#FFFFFF" stroke-opacity="0.4"/>
+    <text x="245" y="504" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="2" fill="#0B0F1A" fill-opacity="0.75">06</text>
+  </g>
+  <g class="float-s" style="animation-delay:-1.80s">
+    <polygon points="95,430 245,460 245,476 95,446" fill="#1A649B"/>
+    <polygon points="245,460 395,430 395,446 245,476" fill="#124469"/>
+    <polygon points="95,430 245,400 395,430 245,460" fill="#44ADFB" stroke="#FFFFFF" stroke-opacity="0.4"/>
+    <text x="245" y="436" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="2" fill="#0B0F1A" fill-opacity="0.75">05</text>
+  </g>
+  <g class="float-s" style="animation-delay:-1.35s">
+    <polygon points="95,362 245,392 245,408 95,378" fill="#28599A"/>
+    <polygon points="245,392 395,362 395,378 245,408" fill="#1B3C68"/>
+    <polygon points="95,362 245,332 395,362 245,392" fill="#579DF9" stroke="#FFFFFF" stroke-opacity="0.4"/>
+    <text x="245" y="368" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="2" fill="#0B0F1A" fill-opacity="0.75">04</text>
+  </g>
+  <g class="float-s" style="animation-delay:-0.90s">
+    <polygon points="95,294 245,324 245,340 95,310" fill="#354E98"/>
+    <polygon points="245,324 395,294 395,310 245,340" fill="#243567"/>
+    <polygon points="95,294 245,264 395,294 245,324" fill="#698DF6" stroke="#FFFFFF" stroke-opacity="0.4"/>
+    <text x="245" y="300" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="2" fill="#0B0F1A" fill-opacity="0.75">03</text>
+  </g>
+  <g class="float-s" style="animation-delay:-0.45s">
+    <polygon points="95,226 245,256 245,272 95,242" fill="#424396"/>
+    <polygon points="245,256 395,226 395,242 245,272" fill="#2D2D66"/>
+    <polygon points="95,226 245,196 395,226 245,256" fill="#7C7EF4" stroke="#FFFFFF" stroke-opacity="0.4"/>
+    <text x="245" y="232" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="2" fill="#0B0F1A" fill-opacity="0.75">02</text>
+  </g>
+  <g class="float-s" style="animation-delay:-0.00s">
+    <polygon points="95,158 245,188 245,204 95,174" fill="#4F3895"/>
+    <polygon points="245,188 395,158 395,174 245,204" fill="#352665"/>
+    <polygon points="95,158 245,128 395,158 245,188" fill="#8E6EF2" stroke="#FFFFFF" stroke-opacity="0.4"/>
+    <text x="245" y="164" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="2" fill="#0B0F1A" fill-opacity="0.75">01</text>
+  </g>
+  
+  <line class="flow" x1="407" y1="166" x2="470" y2="166" stroke="#7F5AF0" stroke-width="1.5" stroke-dasharray="6 8" style="animation-duration:2s"/>
+  <circle cx="474" cy="166" r="4" fill="#7F5AF0"/>
+  <text x="494" y="160" font-size="20" font-weight="700" fill="#FFFFFF">Frontend Engineering</text>
+  <text x="494" y="184" font-size="15" fill="#9AA4C7">Web applications, UI/UX and frontend architecture</text>
+  <line class="flow" x1="407" y1="234" x2="470" y2="234" stroke="#6A6CF2" stroke-width="1.5" stroke-dasharray="6 8" style="animation-duration:2s"/>
+  <circle cx="474" cy="234" r="4" fill="#6A6CF2"/>
+  <text x="494" y="228" font-size="20" font-weight="700" fill="#FFFFFF">Backend Engineering</text>
+  <text x="494" y="252" font-size="15" fill="#9AA4C7">APIs, databases, business logic and integrations</text>
+  <line class="flow" x1="407" y1="302" x2="470" y2="302" stroke="#557EF5" stroke-width="1.5" stroke-dasharray="6 8" style="animation-duration:2s"/>
+  <circle cx="474" cy="302" r="4" fill="#557EF5"/>
+  <text x="494" y="296" font-size="20" font-weight="700" fill="#FFFFFF">AI / ML Engineering</text>
+  <text x="494" y="320" font-size="15" fill="#9AA4C7">AI applications, LLM integrations, model evaluation and intelligent workflows</text>
+  <line class="flow" x1="407" y1="370" x2="470" y2="370" stroke="#4090F8" stroke-width="1.5" stroke-dasharray="6 8" style="animation-duration:2s"/>
+  <circle cx="474" cy="370" r="4" fill="#4090F8"/>
+  <text x="494" y="364" font-size="20" font-weight="700" fill="#FFFFFF">Automation Engineering</text>
+  <text x="494" y="388" font-size="15" fill="#9AA4C7">Workflow automation, RPA and process optimization</text>
+  <line class="flow" x1="407" y1="438" x2="470" y2="438" stroke="#2AA2FA" stroke-width="1.5" stroke-dasharray="6 8" style="animation-duration:2s"/>
+  <circle cx="474" cy="438" r="4" fill="#2AA2FA"/>
+  <text x="494" y="432" font-size="20" font-weight="700" fill="#FFFFFF">QA Engineering</text>
+  <text x="494" y="456" font-size="15" fill="#9AA4C7">Functional testing, automation testing and quality assurance</text>
+  <line class="flow" x1="407" y1="506" x2="470" y2="506" stroke="#15B4FC" stroke-width="1.5" stroke-dasharray="6 8" style="animation-duration:2s"/>
+  <circle cx="474" cy="506" r="4" fill="#15B4FC"/>
+  <text x="494" y="500" font-size="20" font-weight="700" fill="#FFFFFF">DevOps Engineering</text>
+  <text x="494" y="524" font-size="15" fill="#9AA4C7">CI/CD, cloud infrastructure, deployment and monitoring</text>
+  <line class="flow" x1="407" y1="574" x2="470" y2="574" stroke="#00C6FF" stroke-width="1.5" stroke-dasharray="6 8" style="animation-duration:2s"/>
+  <circle cx="474" cy="574" r="4" fill="#00C6FF"/>
+  <text x="494" y="568" font-size="20" font-weight="700" fill="#FFFFFF">Technical Management</text>
+  <text x="494" y="592" font-size="15" fill="#9AA4C7">Architecture, code quality and engineering governance</text>
+  <rect x="1" y="1" width="1198" height="660" rx="23" fill="none" stroke="url(#brand)" stroke-opacity="0.4"/>
+</svg>

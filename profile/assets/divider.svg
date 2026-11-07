@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <style>
+    .float { animation: float 6s ease-in-out infinite; }
+    .float-s { animation: floatS 5s ease-in-out infinite; }
+    .flow { animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes floatS { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes flow { from { stroke-dashoffset: 134; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+@keyframes run { from { stroke-dashoffset: 1200; } to { stroke-dashoffset: 0; } }</style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7F5AF0"/><stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/><stop offset="1" stop-color="#161D33"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A2140"/><stop offset="1" stop-color="#0F1428"/>
+    </linearGradient>
+    
+  </defs>
+  
+  <rect x="0" y="13" width="1200" height="2" rx="1" fill="url(#brand)" opacity="0.35"/>
+  <line x1="0" y1="14" x2="1200" y2="14" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-dasharray="90 1110" style="animation: run 5s linear infinite"/>
+  <polygon points="600,4 610,14 600,24 590,14" fill="url(#brand)"/>
+</svg>

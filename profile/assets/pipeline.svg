@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <style>
+    .float { animation: float 6s ease-in-out infinite; }
+    .float-s { animation: floatS 5s ease-in-out infinite; }
+    .flow { animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes floatS { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes flow { from { stroke-dashoffset: 134; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+.trail { stroke-dasharray: 4 10; animation: flow 2.2s linear infinite; }</style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7F5AF0"/><stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/><stop offset="1" stop-color="#161D33"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A2140"/><stop offset="1" stop-color="#0F1428"/>
+    </linearGradient>
+    
+  </defs>
+  
+  <rect width="1200" height="470" rx="24" fill="url(#panel)"/>
+  <text x="604.8" y="78.6" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#0C0820">HOW WE SHIP</text>
+    <text x="604.0" y="77.5" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#110B2C">HOW WE SHIP</text>
+    <text x="603.2" y="76.4" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#160E37">HOW WE SHIP</text>
+    <text x="602.4" y="75.3" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#1C1143">HOW WE SHIP</text>
+    <text x="601.6" y="74.2" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#21144F">HOW WE SHIP</text>
+    <text x="600.8" y="73.1" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#26175A">HOW WE SHIP</text>
+    <text x="600.0" y="72" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="6" fill="url(#brand)" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">HOW WE SHIP</text>
+  <rect x="530.0" y="90" width="140" height="3" rx="1.5" fill="url(#brand)"/>
+  <rect x="30" y="392" width="1140" height="2" fill="url(#brand)" opacity="0.6"/>
+  <rect x="46" y="340" width="92" height="52" fill="#6648C0"/><polygon points="46,340 66,326 158,326 138,340" fill="#A58CF4"/><polygon points="138,340 158,326 158,378 138,392" fill="#39286C"/><text x="92.0" y="372" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">01</text><text x="98.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">TASK</text><rect x="172" y="319" width="92" height="73" fill="#5953C2"/><polygon points="172,319 192,305 284,305 264,319" fill="#9A95F6"/><polygon points="264,319 284,305 284,378 264,392" fill="#322F6D"/><text x="218.0" y="351" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">02</text><text x="224.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">BRANCH</text><rect x="298" y="298" width="92" height="94" fill="#4C5EC3"/><polygon points="298,298 318,284 410,284 390,298" fill="#8F9EF7"/><polygon points="390,298 410,284 410,378 390,392" fill="#2B356E"/><text x="344.0" y="330" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">03</text><text x="350.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">IMPLEMENT</text><rect x="424" y="277" width="92" height="115" fill="#3F68C5"/><polygon points="424,277 444,263 536,263 516,277" fill="#84A8F9"/><polygon points="516,277 536,263 536,378 516,392" fill="#243A6F"/><text x="470.0" y="309" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">04</text><text x="476.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">TEST</text><rect x="550" y="256" width="92" height="136" fill="#3373C6"/><polygon points="550,256 570,242 662,242 642,256" fill="#79B1FA"/><polygon points="642,256 662,242 662,378 642,392" fill="#1D4170"/><text x="596.0" y="288" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">05</text><text x="602.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">COMMIT</text><rect x="676" y="235" width="92" height="157" fill="#267EC7"/><polygon points="676,235 696,221 788,221 768,235" fill="#6EBBFB"/><polygon points="768,235 788,221 788,378 768,392" fill="#164770"/><text x="722.0" y="267" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">06</text><text x="728.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">PULL REQUEST</text><rect x="802" y="214" width="92" height="178" fill="#1A89C9"/><polygon points="802,214 822,200 914,200 894,214" fill="#63C4FC"/><polygon points="894,214 914,200 914,378 894,392" fill="#0E4D71"/><text x="848.0" y="246" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">07</text><text x="854.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">REVIEW</text><rect x="928" y="193" width="92" height="199" fill="#0D93CA"/><polygon points="928,193 948,179 1040,179 1020,193" fill="#58CDFE"/><polygon points="1020,193 1040,179 1040,378 1020,392" fill="#075372"/><text x="974.0" y="225" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">08</text><text x="980.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">MERGE</text><rect x="1054" y="172" width="92" height="220" fill="#009ECC"/><polygon points="1054,172 1074,158 1166,158 1146,172" fill="#4CD7FF"/><polygon points="1146,172 1166,158 1166,378 1146,392" fill="#005973"/><text x="1100.0" y="204" text-anchor="middle" font-size="22" font-weight="800" fill="#0B0F1A" fill-opacity="0.7">09</text><text x="1106.0" y="426" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.2" fill="#E8EBFA">RELEASE</text>
+  <path class="trail" d="M102.0,333.0 L228.0,312.0 L354.0,291.0 L480.0,270.0 L606.0,249.0 L732.0,228.0 L858.0,207.0 L984.0,186.0 L1110.0,165.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="2"/>
+  <circle r="7" fill="#FFFFFF"><animateMotion dur="7s" repeatCount="indefinite" path="M102.0,333.0 L228.0,312.0 L354.0,291.0 L480.0,270.0 L606.0,249.0 L732.0,228.0 L858.0,207.0 L984.0,186.0 L1110.0,165.0"/></circle>
+  <circle r="16" fill="#FFFFFF" opacity="0.22"><animateMotion dur="7s" repeatCount="indefinite" path="M102.0,333.0 L228.0,312.0 L354.0,291.0 L480.0,270.0 L606.0,249.0 L732.0,228.0 L858.0,207.0 L984.0,186.0 L1110.0,165.0"/></circle>
+  <text x="600" y="452" text-anchor="middle" font-size="14" fill="#9AA4C7">Review loops back to implementation until approved and all CI checks pass.</text>
+  <rect x="1" y="1" width="1198" height="468" rx="23" fill="none" stroke="url(#brand)" stroke-opacity="0.4"/>
+</svg>

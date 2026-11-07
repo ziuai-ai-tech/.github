@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <style>
+    .float { animation: float 6s ease-in-out infinite; }
+    .float-s { animation: floatS 5s ease-in-out infinite; }
+    .flow { animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes floatS { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes flow { from { stroke-dashoffset: 134; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7F5AF0"/><stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/><stop offset="1" stop-color="#161D33"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A2140"/><stop offset="1" stop-color="#0F1428"/>
+    </linearGradient>
+    
+  </defs>
+  
+  <rect width="1200" height="170" rx="24" fill="url(#panel)"/>
+  <g class="float" style=""><polygon points="110,66 132.516,79.0 110,92 87.48400000000001,79.0" fill="#AC94F5"/><polygon points="87.48400000000001,79.0 110,92 110,118 87.48400000000001,105.0" fill="#7F5AF0"/><polygon points="110,92 132.516,79.0 132.516,105.0 110,118" fill="#463284"/><polygon points="110,66 132.516,79.0 110,92 87.48400000000001,79.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/></g>
+  <g class="float" style="animation-delay:-3s"><polygon points="1090,66 1112.516,79.0 1090,92 1067.484,79.0" fill="#59DAFF"/><polygon points="1067.484,79.0 1090,92 1090,118 1067.484,105.0" fill="#00C6FF"/><polygon points="1090,92 1112.516,79.0 1112.516,105.0 1090,118" fill="#006D8C"/><polygon points="1090,66 1112.516,79.0 1090,92 1067.484,79.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/></g>
+  <text x="605.6" y="99.7" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#0C0820">DEVELOPMENT STANDARDS</text>
+    <text x="604.8" y="98.6" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#100B2A">DEVELOPMENT STANDARDS</text>
+    <text x="604.0" y="97.5" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#150D34">DEVELOPMENT STANDARDS</text>
+    <text x="603.2" y="96.4" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#19103E">DEVELOPMENT STANDARDS</text>
+    <text x="602.4" y="95.3" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#1E1248">DEVELOPMENT STANDARDS</text>
+    <text x="601.6" y="94.2" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#221552">DEVELOPMENT STANDARDS</text>
+    <text x="600.8" y="93.1" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" letter-spacing="6" fill="#27175C">DEVELOPMENT STANDARDS</text>
+    <text x="600" y="92" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="middle" letter-spacing="6" fill="url(#brand)" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">DEVELOPMENT STANDARDS</text>
+  <text x="600" y="132" text-anchor="middle" font-size="16" fill="#9AA4C7">The rules every contributor follows. Open a section to read it.</text>
+  <rect x="1" y="1" width="1198" height="168" rx="23" fill="none" stroke="url(#brand)" stroke-opacity="0.4"/>
+</svg>

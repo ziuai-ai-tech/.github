@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <style>
+    .float { animation: float 6s ease-in-out infinite; }
+    .float-s { animation: floatS 5s ease-in-out infinite; }
+    .flow { animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes floatS { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes flow { from { stroke-dashoffset: 134; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+    .tag { opacity: 0; animation: cycle 12s ease-in-out infinite; }
+    @keyframes cycle { 0% { opacity: 0; transform: translateY(10px); } 4%,21% { opacity: 1; transform: translateY(0); }
+                       25%,100% { opacity: 0; transform: translateY(-10px); } }
+    </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7F5AF0"/><stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/><stop offset="1" stop-color="#161D33"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A2140"/><stop offset="1" stop-color="#0F1428"/>
+    </linearGradient>
+    <linearGradient id="face" gradientUnits="userSpaceOnUse" x1="330" y1="0" x2="870" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#7F5AF0"/><stop offset="0.5" stop-color="#E6E0FF"/><stop offset="1" stop-color="#00C6FF"/><animateTransform attributeName="gradientTransform" type="translate" values="-540 0;540 0;-540 0" dur="9s" repeatCount="indefinite"/></linearGradient><radialGradient id="glow"><stop offset="0" stop-color="#7F5AF0" stop-opacity="0.55"/><stop offset="1" stop-color="#7F5AF0" stop-opacity="0"/></radialGradient>
+  </defs>
+  
+  <rect width="1200" height="480" rx="24" fill="url(#panel)"/>
+  <linearGradient id="hfloorGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.35" stop-color="#fff" stop-opacity="0.7"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient><mask id="hfloorFade"><rect x="0" y="392" width="1200" height="88" fill="url(#hfloorGrad)"/></mask>
+  <clipPath id="hfloor"><rect x="1.5" y="1.5" width="1197" height="477" rx="22.5"/></clipPath>
+    <g clip-path="url(#hfloor)" stroke="url(#brand)" stroke-width="1" mask="url(#hfloorFade)">
+    <line x1="600" y1="392" x2="-720.0" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="-618.5" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="-516.9" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="-415.4" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="-313.8" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="-212.3" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="-110.8" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="-9.2" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="92.3" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="193.8" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="295.4" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="396.9" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="498.5" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="600.0" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="701.5" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="803.1" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="904.6" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1006.2" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1107.7" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1209.2" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1310.8" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1412.3" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1513.8" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1615.4" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1716.9" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1818.5" y2="480" stroke-opacity="0.55"/>
+    <line x1="600" y1="392" x2="1920.0" y2="480" stroke-opacity="0.55"/>
+    <line x1="0" y1="393.2" x2="1200" y2="393.2" stroke-opacity="0.45"/>
+    <line x1="0" y1="397.6" x2="1200" y2="397.6" stroke-opacity="0.45"/>
+    <line x1="0" y1="405.6" x2="1200" y2="405.6" stroke-opacity="0.45"/>
+    <line x1="0" y1="417.7" x2="1200" y2="417.7" stroke-opacity="0.45"/>
+    <line x1="0" y1="434.0" x2="1200" y2="434.0" stroke-opacity="0.45"/>
+    <line x1="0" y1="454.7" x2="1200" y2="454.7" stroke-opacity="0.45"/>
+    <line x1="0" y1="480.0" x2="1200" y2="480.0" stroke-opacity="0.45"/>
+    <line class="flow" x1="600" y1="392" x2="-720.0" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-0.00s"/>
+    <line class="flow" x1="600" y1="392" x2="-415.4" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-1.11s"/>
+    <line class="flow" x1="600" y1="392" x2="-110.8" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-2.22s"/>
+    <line class="flow" x1="600" y1="392" x2="193.8" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-0.33s"/>
+    <line class="flow" x1="600" y1="392" x2="498.5" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-1.44s"/>
+    <line class="flow" x1="600" y1="392" x2="803.1" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-2.55s"/>
+    <line class="flow" x1="600" y1="392" x2="1107.7" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-0.66s"/>
+    <line class="flow" x1="600" y1="392" x2="1412.3" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-1.77s"/>
+    <line class="flow" x1="600" y1="392" x2="1716.9" y2="480" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="14 120" style="animation-delay:-2.88s"/>
+    </g>
+  <ellipse class="pulse" cx="600" cy="170" rx="380" ry="130" fill="url(#glow)"/>
+  <g class="float" style="animation-delay:0s"><polygon points="140,108 176.372,129.0 140,150 103.628,129.0" fill="#AC94F5"/><polygon points="103.628,129.0 140,150 140,192 103.628,171.0" fill="#7F5AF0"/><polygon points="140,150 176.372,129.0 176.372,171.0 140,192" fill="#463284"/><polygon points="140,108 176.372,129.0 140,150 103.628,129.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/></g>
+  <g class="float" style="animation-delay:-1.5s"><polygon points="250,70 269.052,81.0 250,92 230.948,81.0" fill="#59DAFF"/><polygon points="230.948,81.0 250,92 250,114 230.948,103.0" fill="#00C6FF"/><polygon points="250,92 269.052,81.0 269.052,103.0 250,114" fill="#006D8C"/><polygon points="250,70 269.052,81.0 250,92 230.948,81.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/></g>
+  <g class="float" style="animation-delay:-3s"><polygon points="95,280 112.32,290.0 95,300 77.68,290.0" fill="#59DAFF"/><polygon points="77.68,290.0 95,300 95,320 77.68,310.0" fill="#00C6FF"/><polygon points="95,300 112.32,290.0 112.32,310.0 95,320" fill="#006D8C"/><polygon points="95,280 112.32,290.0 95,300 77.68,290.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/></g>
+  <g class="float" style="animation-delay:-2s"><polygon points="1060,122 1092.908,141.0 1060,160 1027.092,141.0" fill="#59DAFF"/><polygon points="1027.092,141.0 1060,160 1060,198 1027.092,179.0" fill="#00C6FF"/><polygon points="1060,160 1092.908,141.0 1092.908,179.0 1060,198" fill="#006D8C"/><polygon points="1060,122 1092.908,141.0 1060,160 1027.092,141.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/></g>
+  <g class="float" style="animation-delay:-4s"><polygon points="960,66 977.32,76.0 960,86 942.68,76.0" fill="#AC94F5"/><polygon points="942.68,76.0 960,86 960,106 942.68,96.0" fill="#7F5AF0"/><polygon points="960,86 977.32,76.0 977.32,96.0 960,106" fill="#463284"/><polygon points="960,66 977.32,76.0 960,86 942.68,76.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/></g>
+  <g class="float" style="animation-delay:-1s"><polygon points="1110,281 1130.784,293.0 1110,305 1089.216,293.0" fill="#AC94F5"/><polygon points="1089.216,293.0 1110,305 1110,329 1089.216,317.0" fill="#7F5AF0"/><polygon points="1110,305 1130.784,293.0 1130.784,317.0 1110,329" fill="#463284"/><polygon points="1110,281 1130.784,293.0 1110,305 1089.216,293.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/></g>
+  <g class="float-s">
+    <text x="616.0" y="227.4" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#0C0820">ZIUAI</text>
+    <text x="615.0" y="226.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#0E0924">ZIUAI</text>
+    <text x="614.0" y="224.6" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#100A29">ZIUAI</text>
+    <text x="613.0" y="223.2" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#120B2D">ZIUAI</text>
+    <text x="612.0" y="221.8" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#140C32">ZIUAI</text>
+    <text x="611.0" y="220.4" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#160E36">ZIUAI</text>
+    <text x="610.0" y="219.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#180F3A">ZIUAI</text>
+    <text x="609.0" y="217.6" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#1A103F">ZIUAI</text>
+    <text x="608.0" y="216.2" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#1C1143">ZIUAI</text>
+    <text x="607.0" y="214.8" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#1D1247">ZIUAI</text>
+    <text x="606.0" y="213.4" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#1F134C">ZIUAI</text>
+    <text x="605.0" y="212.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#211450">ZIUAI</text>
+    <text x="604.0" y="210.6" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#231654">ZIUAI</text>
+    <text x="603.0" y="209.2" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#251759">ZIUAI</text>
+    <text x="602.0" y="207.8" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#27185D">ZIUAI</text>
+    <text x="601.0" y="206.4" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="#291962">ZIUAI</text>
+    <text x="600" y="205" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" text-anchor="middle" letter-spacing="10" fill="url(#face)" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1">ZIUAI</text>
+  </g>
+  <text x="600" y="252" text-anchor="middle" font-size="22" font-weight="600" letter-spacing="11" fill="#9AA4C7">ENGINEERING &amp; TECHNOLOGY</text>
+  <text class="tag" style="animation-delay:0s" x="600" y="298" text-anchor="middle" font-size="20" font-weight="500" fill="#D7DCF5">Building Intelligent Solutions Through Engineering Excellence</text>
+  <text class="tag" style="animation-delay:3s" x="600" y="298" text-anchor="middle" font-size="20" font-weight="500" fill="#D7DCF5">AI-Powered Applications and Intelligent Workflows</text>
+  <text class="tag" style="animation-delay:6s" x="600" y="298" text-anchor="middle" font-size="20" font-weight="500" fill="#D7DCF5">Automation Solutions That Scale With Your Business</text>
+  <text class="tag" style="animation-delay:9s" x="600" y="298" text-anchor="middle" font-size="20" font-weight="500" fill="#D7DCF5">Secure, Reliable and Scalable Technology Platforms</text>
+  <rect x="212.0" y="342" width="170.0" height="34" rx="17" fill="#120B33"/><rect x="212.0" y="336" width="170.0" height="34" rx="17" fill="#161D33" stroke="url(#brand)" stroke-width="1.5"/><text x="297.0" y="358" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="2" fill="#E8EBFA">CODE QUALITY</text><rect x="400.0" y="342" width="191.0" height="34" rx="17" fill="#120B33"/><rect x="400.0" y="336" width="191.0" height="34" rx="17" fill="#161D33" stroke="url(#brand)" stroke-width="1.5"/><text x="495.5" y="358" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="2" fill="#E8EBFA">SECURITY FIRST</text><rect x="609.0" y="342" width="201.5" height="34" rx="17" fill="#120B33"/><rect x="609.0" y="336" width="201.5" height="34" rx="17" fill="#161D33" stroke="url(#brand)" stroke-width="1.5"/><text x="709.75" y="358" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="2" fill="#E8EBFA">AI &amp; AUTOMATION</text><rect x="828.5" y="342" width="159.5" height="34" rx="17" fill="#120B33"/><rect x="828.5" y="336" width="159.5" height="34" rx="17" fill="#161D33" stroke="url(#brand)" stroke-width="1.5"/><text x="908.25" y="358" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="2" fill="#E8EBFA">CI/CD READY</text>
+  <rect x="1" y="1" width="1198" height="478" rx="23" fill="none" stroke="url(#brand)" stroke-opacity="0.5"/>
+</svg>
